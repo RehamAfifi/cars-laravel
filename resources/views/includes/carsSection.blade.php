@@ -9,7 +9,6 @@
   <div class="row">
     @foreach ($cars as $car)
     <div class="col-md-6 col-lg-4 mb-4">
-
       <div class="listing d-block  align-items-stretch">
         <div class="listing-img h-100 mr-4">
           <img src="{{asset('assets/images/cars/'.$car->image)}}" alt="{{$car->carTitle}}" class="img-fluid">
